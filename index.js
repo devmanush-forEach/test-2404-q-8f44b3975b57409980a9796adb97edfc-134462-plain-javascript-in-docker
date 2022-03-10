@@ -1,6 +1,6 @@
 console.log(API_URL);
 
-fetchData();
+window.onload(fetchData());
 
 async function fetchData  (){
 
